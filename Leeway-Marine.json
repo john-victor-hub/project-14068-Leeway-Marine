@@ -1,0 +1,5234 @@
+[
+    {
+        "id": "78137179abe2fa8b",
+        "type": "tab",
+        "label": "Py Script Control",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "90d457d7cfcbc260",
+        "type": "tab",
+        "label": "Py Script Status",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "dab2abfe2b743e97",
+        "type": "tab",
+        "label": "File Handling",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c38a1e390906e080",
+        "type": "ui_group",
+        "name": "Status",
+        "tab": "11c9ed2c53f7c1f6",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "11c9ed2c53f7c1f6",
+        "type": "ui_tab",
+        "name": "Home Tab",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2e731f7c6420d64f",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "3738ed6c5bcbbcf9",
+        "type": "ui_group",
+        "name": "Data Collection",
+        "tab": "11c9ed2c53f7c1f6",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5c26d44c29787f92",
+        "type": "ui_group",
+        "name": "Test Information",
+        "tab": "11c9ed2c53f7c1f6",
+        "order": 2,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1a17f43d2601cc63",
+        "type": "ui_group",
+        "name": "For Debug",
+        "tab": "7d6564fa55b84e17",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7d6564fa55b84e17",
+        "type": "ui_tab",
+        "name": "Settings",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8fbadbc879ecd5ca",
+        "type": "ui_group",
+        "name": "Settings",
+        "tab": "7d6564fa55b84e17",
+        "order": 1,
+        "disp": true,
+        "width": 20,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d3b06de3a8f69cdc",
+        "type": "ui_group",
+        "name": "File Info",
+        "tab": "11c9ed2c53f7c1f6",
+        "order": 3,
+        "disp": true,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f049f87dd2985904",
+        "type": "ui_group",
+        "name": "For Debug",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "70448ea38ae7f8d2",
+        "type": "ui_group",
+        "name": "Settings",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 20,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2630fb65e39b989b",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "3738ed6c5bcbbcf9",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "16a1b87b47e19a3a",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "3738ed6c5bcbbcf9",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5e34a0d2862c0fcc",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "3738ed6c5bcbbcf9",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f2c06df76890d822",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "3738ed6c5bcbbcf9",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c7bbc3e74982b7a0",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "3738ed6c5bcbbcf9",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "93627ae6ad6ae862",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "3738ed6c5bcbbcf9",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d5d5075b24994796",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "5c26d44c29787f92",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "371c1ee816d96f28",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "5c26d44c29787f92",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "dcbe7ef57873a89d",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "5c26d44c29787f92",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6f0f3a035bf2b1f6",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "5c26d44c29787f92",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "14c39edbc5977337",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "5c26d44c29787f92",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "070590bc83b80a1d",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "5c26d44c29787f92",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f8a1b43114e159f5",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "d3b06de3a8f69cdc",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "63b8f18b3b6c2a42",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "d3b06de3a8f69cdc",
+        "order": 21,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8a0527fe0c31d8ac",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "d3b06de3a8f69cdc",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "cf72efcce3d94b7a",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "d3b06de3a8f69cdc",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5c78eff05211e719",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "d3b06de3a8f69cdc",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f551c4666fe33c8a",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "d3b06de3a8f69cdc",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "68ec07c2eb6ae5ee",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "d3b06de3a8f69cdc",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d07dcb102c5b0bcf",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "d3b06de3a8f69cdc",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "04596a7ff97b6677",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "d3b06de3a8f69cdc",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bfffcf2a77d587ef",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "d3b06de3a8f69cdc",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "dc35ec745de315ad",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "d3b06de3a8f69cdc",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8008dee7540bd96e",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "d3b06de3a8f69cdc",
+        "order": 19,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e2549e3b7852c221",
+        "type": "ui_spacer",
+        "z": "dab2abfe2b743e97",
+        "name": "spacer",
+        "group": "d3b06de3a8f69cdc",
+        "order": 22,
+        "width": "1",
+        "height": "1"
+    },
+    {
+        "id": "165e1e1a.e752fa",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "a9ae714ef18d9690",
+        "type": "ui_group",
+        "name": "Status",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "3735748b2e4202fb",
+        "type": "http in",
+        "z": "78137179abe2fa8b",
+        "name": "run_main get",
+        "url": "/run_main",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 710,
+        "y": 100,
+        "wires": [
+            [
+                "84b2957dae64b3fe"
+            ]
+        ]
+    },
+    {
+        "id": "f097d93f0a98d82f",
+        "type": "http response",
+        "z": "78137179abe2fa8b",
+        "name": "run_main response",
+        "statusCode": "",
+        "headers": {},
+        "x": 1110,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "f61b71c757d60803",
+        "type": "ui_button",
+        "z": "78137179abe2fa8b",
+        "name": "",
+        "group": "3738ed6c5bcbbcf9",
+        "order": 3,
+        "width": 2,
+        "height": 2,
+        "passthru": false,
+        "label": "Enable",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{msg.background}}",
+        "className": "",
+        "icon": "",
+        "payload": "latchOutput 1",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 280,
+        "y": 160,
+        "wires": [
+            [
+                "e3ebe1b85f4975df",
+                "0d63fa654a68c07d",
+                "ff1b6bb660a85e0c"
+            ]
+        ],
+        "outputLabels": [
+            "test_out"
+        ]
+    },
+    {
+        "id": "a07927e12b96efb3",
+        "type": "ui_button",
+        "z": "78137179abe2fa8b",
+        "name": "",
+        "group": "3738ed6c5bcbbcf9",
+        "order": 2,
+        "width": 2,
+        "height": 2,
+        "passthru": false,
+        "label": "Stop",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{msg.background}}",
+        "className": "",
+        "icon": "",
+        "payload": "latchOutput 2",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 270,
+        "y": 240,
+        "wires": [
+            [
+                "cc08481fd0375136",
+                "d7bdbaf22a249a3e",
+                "340ac969b6b961e4"
+            ]
+        ]
+    },
+    {
+        "id": "0d63fa654a68c07d",
+        "type": "function",
+        "z": "78137179abe2fa8b",
+        "name": "grey",
+        "func": "msg.background = \"grey\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 130,
+        "y": 280,
+        "wires": [
+            [
+                "a07927e12b96efb3"
+            ]
+        ]
+    },
+    {
+        "id": "cc08481fd0375136",
+        "type": "function",
+        "z": "78137179abe2fa8b",
+        "name": "grey",
+        "func": "msg.background = \"grey\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 130,
+        "y": 140,
+        "wires": [
+            [
+                "f61b71c757d60803"
+            ]
+        ]
+    },
+    {
+        "id": "e3ebe1b85f4975df",
+        "type": "function",
+        "z": "78137179abe2fa8b",
+        "name": "green",
+        "func": "msg.background = \"green\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 130,
+        "y": 100,
+        "wires": [
+            [
+                "f61b71c757d60803"
+            ]
+        ]
+    },
+    {
+        "id": "d7bdbaf22a249a3e",
+        "type": "function",
+        "z": "78137179abe2fa8b",
+        "name": "red",
+        "func": "msg.background = \"red\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 130,
+        "y": 320,
+        "wires": [
+            [
+                "a07927e12b96efb3"
+            ]
+        ]
+    },
+    {
+        "id": "ff1b6bb660a85e0c",
+        "type": "change",
+        "z": "78137179abe2fa8b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "run_status",
+                "pt": "flow",
+                "to": "run",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "340ac969b6b961e4",
+        "type": "change",
+        "z": "78137179abe2fa8b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "run_status",
+                "pt": "flow",
+                "to": "stop",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "84b2957dae64b3fe",
+        "type": "change",
+        "z": "78137179abe2fa8b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "run_status",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 100,
+        "wires": [
+            [
+                "f097d93f0a98d82f"
+            ]
+        ]
+    },
+    {
+        "id": "cbf146357210078d",
+        "type": "ui_button",
+        "z": "78137179abe2fa8b",
+        "name": "",
+        "group": "3738ed6c5bcbbcf9",
+        "order": 8,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Start",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 540,
+        "wires": [
+            [
+                "4d74b43dd4b226ab"
+            ]
+        ]
+    },
+    {
+        "id": "38ac28af7247b7a8",
+        "type": "exec",
+        "z": "78137179abe2fa8b",
+        "command": "C:\\Users\\jdurairaj\\projects\\Batch_Files\\run_camera_recording.bat",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 620,
+        "y": 720,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "25342a41f4ae8123",
+        "type": "exec",
+        "z": "78137179abe2fa8b",
+        "command": "C:\\Users\\jdurairaj\\projects\\Batch_Files\\run_IMU_data_logging.bat",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 620,
+        "y": 620,
+        "wires": [
+            [
+                "e42e24aa966a8e5a"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "7a7e633243590567",
+        "type": "exec",
+        "z": "78137179abe2fa8b",
+        "command": "C:\\Users\\jdurairaj\\projects\\Batch_Files\\run_sensors_data_logging.bat",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 630,
+        "y": 1020,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "7a64756465f63412",
+        "type": "exec",
+        "z": "78137179abe2fa8b",
+        "command": "C:\\Users\\jdurairaj\\projects\\Batch_Files\\run_position_data_logging.bat",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 630,
+        "y": 1120,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "1b0b378b677f6964",
+        "type": "exec",
+        "z": "78137179abe2fa8b",
+        "command": "C:\\Users\\jdurairaj\\projects\\Batch_Files\\run_printer_data_logging.bat",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 620,
+        "y": 1220,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "b0fbda8970af0e41",
+        "type": "ui_button",
+        "z": "78137179abe2fa8b",
+        "name": "",
+        "group": "1a17f43d2601cc63",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Start Sensors Data Logging",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 180,
+        "y": 1020,
+        "wires": [
+            [
+                "7a7e633243590567"
+            ]
+        ]
+    },
+    {
+        "id": "484cc1c41a6864bc",
+        "type": "ui_button",
+        "z": "78137179abe2fa8b",
+        "name": "",
+        "group": "1a17f43d2601cc63",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Start Position Data Logging",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 180,
+        "y": 1120,
+        "wires": [
+            [
+                "7a64756465f63412"
+            ]
+        ]
+    },
+    {
+        "id": "9a4061a5736074ad",
+        "type": "ui_button",
+        "z": "78137179abe2fa8b",
+        "name": "",
+        "group": "1a17f43d2601cc63",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Start Printer Data Logging",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 160,
+        "y": 1220,
+        "wires": [
+            [
+                "1b0b378b677f6964"
+            ]
+        ]
+    },
+    {
+        "id": "b347aa8e320d044e",
+        "type": "ui_button",
+        "z": "78137179abe2fa8b",
+        "name": "",
+        "group": "1a17f43d2601cc63",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Start Camera Recording 1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 720,
+        "wires": [
+            [
+                "38ac28af7247b7a8"
+            ]
+        ]
+    },
+    {
+        "id": "e36cbf6559e27154",
+        "type": "ui_button",
+        "z": "78137179abe2fa8b",
+        "name": "",
+        "group": "1a17f43d2601cc63",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Start IMU Data Logging",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 620,
+        "wires": [
+            [
+                "25342a41f4ae8123"
+            ]
+        ]
+    },
+    {
+        "id": "24d6e0323cc03868",
+        "type": "delay",
+        "z": "78137179abe2fa8b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 230,
+        "y": 680,
+        "wires": [
+            [
+                "38ac28af7247b7a8"
+            ]
+        ]
+    },
+    {
+        "id": "2123ce21c527cdd0",
+        "type": "delay",
+        "z": "78137179abe2fa8b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 230,
+        "y": 980,
+        "wires": [
+            [
+                "7a7e633243590567"
+            ]
+        ]
+    },
+    {
+        "id": "0f583f92143afc32",
+        "type": "delay",
+        "z": "78137179abe2fa8b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 230,
+        "y": 1080,
+        "wires": [
+            [
+                "7a64756465f63412"
+            ]
+        ]
+    },
+    {
+        "id": "826f9a15e997692b",
+        "type": "delay",
+        "z": "78137179abe2fa8b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 230,
+        "y": 1180,
+        "wires": [
+            [
+                "1b0b378b677f6964"
+            ]
+        ]
+    },
+    {
+        "id": "4d74b43dd4b226ab",
+        "type": "link out",
+        "z": "78137179abe2fa8b",
+        "name": "Link - Start Button",
+        "mode": "link",
+        "links": [
+            "79986b35e87a92f7",
+            "9aa960e74914cb7c",
+            "b373abb5c68b658e",
+            "c1cc9ec6508c9ec8",
+            "6accdef70991c9bc",
+            "657515949fbf6469",
+            "f59a1c31dc64a554",
+            "46aa3fd8864bef0d",
+            "8de48683c4814cb9",
+            "121ea7f2b2fbb352",
+            "89bfbb9458d041a2"
+        ],
+        "x": 255,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "6accdef70991c9bc",
+        "type": "link in",
+        "z": "78137179abe2fa8b",
+        "name": "link in 1",
+        "links": [
+            "4d74b43dd4b226ab"
+        ],
+        "x": 85,
+        "y": 680,
+        "wires": [
+            [
+                "24d6e0323cc03868"
+            ]
+        ]
+    },
+    {
+        "id": "79986b35e87a92f7",
+        "type": "link in",
+        "z": "78137179abe2fa8b",
+        "name": "link in 2",
+        "links": [
+            "4d74b43dd4b226ab"
+        ],
+        "x": 85,
+        "y": 980,
+        "wires": [
+            [
+                "2123ce21c527cdd0"
+            ]
+        ]
+    },
+    {
+        "id": "c1cc9ec6508c9ec8",
+        "type": "link in",
+        "z": "78137179abe2fa8b",
+        "name": "link in 3",
+        "links": [
+            "4d74b43dd4b226ab"
+        ],
+        "x": 85,
+        "y": 1080,
+        "wires": [
+            [
+                "0f583f92143afc32"
+            ]
+        ]
+    },
+    {
+        "id": "b373abb5c68b658e",
+        "type": "link in",
+        "z": "78137179abe2fa8b",
+        "name": "link in 4",
+        "links": [
+            "4d74b43dd4b226ab"
+        ],
+        "x": 85,
+        "y": 1180,
+        "wires": [
+            [
+                "826f9a15e997692b"
+            ]
+        ]
+    },
+    {
+        "id": "558631dfdfe6fa0f",
+        "type": "exec",
+        "z": "78137179abe2fa8b",
+        "command": "C:\\Users\\jdurairaj\\projects\\Batch_Files\\run_camera_recording_1.bat",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 620,
+        "y": 920,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "e386178f13fbaa69",
+        "type": "ui_button",
+        "z": "78137179abe2fa8b",
+        "name": "",
+        "group": "1a17f43d2601cc63",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Start Camera Recording 3",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 920,
+        "wires": [
+            [
+                "558631dfdfe6fa0f"
+            ]
+        ]
+    },
+    {
+        "id": "a62ada81d41ff61e",
+        "type": "exec",
+        "z": "78137179abe2fa8b",
+        "command": "C:\\Users\\jdurairaj\\projects\\Batch_Files\\run_camera_recording_2.bat",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 620,
+        "y": 820,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "dd247e584dce34b0",
+        "type": "ui_button",
+        "z": "78137179abe2fa8b",
+        "name": "",
+        "group": "1a17f43d2601cc63",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Start Camera Recording 2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 820,
+        "wires": [
+            [
+                "a62ada81d41ff61e"
+            ]
+        ]
+    },
+    {
+        "id": "e494ff92cd7c0783",
+        "type": "delay",
+        "z": "78137179abe2fa8b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 230,
+        "y": 780,
+        "wires": [
+            [
+                "a62ada81d41ff61e"
+            ]
+        ]
+    },
+    {
+        "id": "9aa960e74914cb7c",
+        "type": "link in",
+        "z": "78137179abe2fa8b",
+        "name": "link in 5",
+        "links": [
+            "4d74b43dd4b226ab"
+        ],
+        "x": 85,
+        "y": 780,
+        "wires": [
+            [
+                "e494ff92cd7c0783"
+            ]
+        ]
+    },
+    {
+        "id": "cb6b8b98ef88641c",
+        "type": "delay",
+        "z": "78137179abe2fa8b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 230,
+        "y": 880,
+        "wires": [
+            [
+                "558631dfdfe6fa0f"
+            ]
+        ]
+    },
+    {
+        "id": "657515949fbf6469",
+        "type": "link in",
+        "z": "78137179abe2fa8b",
+        "name": "link in 6",
+        "links": [
+            "4d74b43dd4b226ab"
+        ],
+        "x": 85,
+        "y": 880,
+        "wires": [
+            [
+                "cb6b8b98ef88641c"
+            ]
+        ]
+    },
+    {
+        "id": "8097553b2bb08b57",
+        "type": "comment",
+        "z": "78137179abe2fa8b",
+        "name": "Start python scripts via batch files",
+        "info": "",
+        "x": 190,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "e42e24aa966a8e5a",
+        "type": "function",
+        "z": "78137179abe2fa8b",
+        "name": "function 5",
+        "func": "var x = String(msg.payload)\nif (x == \"error/n\") {\n\n    msg.payload = 'IMU Error';\n    return msg\n}\nelse {\n    msg.payload = x;\n    return msg\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1140,
+        "y": 600,
+        "wires": [
+            [
+                "63310c98e03523f2"
+            ]
+        ]
+    },
+    {
+        "id": "63310c98e03523f2",
+        "type": "debug",
+        "z": "78137179abe2fa8b",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1320,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "c30b927cf39c7f2f",
+        "type": "comment",
+        "z": "78137179abe2fa8b",
+        "name": "Button logic",
+        "info": "",
+        "x": 150,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "3992dbdda9ce413d",
+        "type": "comment",
+        "z": "78137179abe2fa8b",
+        "name": "Status for py scripts",
+        "info": "",
+        "x": 730,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "6930adda907d6d6d",
+        "type": "delay",
+        "z": "78137179abe2fa8b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 230,
+        "y": 580,
+        "wires": [
+            [
+                "25342a41f4ae8123"
+            ]
+        ]
+    },
+    {
+        "id": "46aa3fd8864bef0d",
+        "type": "link in",
+        "z": "78137179abe2fa8b",
+        "name": "link in 15",
+        "links": [
+            "4d74b43dd4b226ab"
+        ],
+        "x": 85,
+        "y": 580,
+        "wires": [
+            [
+                "6930adda907d6d6d"
+            ]
+        ]
+    },
+    {
+        "id": "cdb611ec8d3332b2",
+        "type": "exec",
+        "z": "78137179abe2fa8b",
+        "command": "C:\\Users\\jdurairaj\\projects\\Batch_Files\\run_ship_data_logging.bat",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 620,
+        "y": 1320,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "5457c4bd4c7d1bf1",
+        "type": "ui_button",
+        "z": "78137179abe2fa8b",
+        "name": "",
+        "group": "1a17f43d2601cc63",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Start Ship Data Logging",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 1320,
+        "wires": [
+            [
+                "cdb611ec8d3332b2"
+            ]
+        ]
+    },
+    {
+        "id": "3fb109712dfc0595",
+        "type": "delay",
+        "z": "78137179abe2fa8b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 240,
+        "y": 1280,
+        "wires": [
+            [
+                "cdb611ec8d3332b2"
+            ]
+        ]
+    },
+    {
+        "id": "89bfbb9458d041a2",
+        "type": "link in",
+        "z": "78137179abe2fa8b",
+        "name": "link in 17",
+        "links": [
+            "4d74b43dd4b226ab"
+        ],
+        "x": 85,
+        "y": 1280,
+        "wires": [
+            [
+                "3fb109712dfc0595"
+            ]
+        ]
+    },
+    {
+        "id": "ee7c59932fa7966d",
+        "type": "http request",
+        "z": "90d457d7cfcbc260",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://localhost:8087/camera1/recording/status",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 430,
+        "y": 460,
+        "wires": [
+            [
+                "ce491c034638e42d"
+            ]
+        ]
+    },
+    {
+        "id": "121c32c1937ab75a",
+        "type": "inject",
+        "z": "90d457d7cfcbc260",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": ".5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 460,
+        "wires": [
+            [
+                "ee7c59932fa7966d"
+            ]
+        ]
+    },
+    {
+        "id": "576349a860f41a3f",
+        "type": "ui_text",
+        "z": "90d457d7cfcbc260",
+        "group": "c38a1e390906e080",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Printer Data Logging",
+        "format": "<font color={{fcolor}}>{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 880,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "45baa3d7e5e2084f",
+        "type": "http request",
+        "z": "90d457d7cfcbc260",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://localhost:8082/sensors/data_logging/status",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 430,
+        "y": 700,
+        "wires": [
+            [
+                "96fa3671cbac2022"
+            ]
+        ]
+    },
+    {
+        "id": "96fa3671cbac2022",
+        "type": "function",
+        "z": "90d457d7cfcbc260",
+        "name": "Sensors Function",
+        "func": "\nif (msg.payload === 'True') {\n    msg.payload = 'Active';\n    msg.fcolor = 'green';\n} else {\n    msg.payload = 'Stopped';\n    msg.fcolor = 'red';\n}\nreturn msg",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 700,
+        "wires": [
+            [
+                "9f2575cb6c7397cb"
+            ]
+        ]
+    },
+    {
+        "id": "9f2575cb6c7397cb",
+        "type": "ui_text",
+        "z": "90d457d7cfcbc260",
+        "group": "c38a1e390906e080",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Temp/humid Logging",
+        "format": "<font color={{fcolor}}>{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 880,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "cab4a8b0b1bd864f",
+        "type": "http request",
+        "z": "90d457d7cfcbc260",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://localhost:8083/position/data_logging/status",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 430,
+        "y": 780,
+        "wires": [
+            [
+                "5e1f273271f8bc11"
+            ]
+        ]
+    },
+    {
+        "id": "24827d58e3da968e",
+        "type": "inject",
+        "z": "90d457d7cfcbc260",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1.2",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 780,
+        "wires": [
+            [
+                "cab4a8b0b1bd864f"
+            ]
+        ]
+    },
+    {
+        "id": "5e1f273271f8bc11",
+        "type": "function",
+        "z": "90d457d7cfcbc260",
+        "name": "Position Function",
+        "func": "\nif (msg.payload === 'True') {\n    msg.payload = 'Active';\n    msg.fcolor = 'green';\n} else {\n    msg.payload = 'Stopped';\n    msg.fcolor = 'red';\n}\nreturn msg",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 780,
+        "wires": [
+            [
+                "3854768b1162d0ad"
+            ]
+        ]
+    },
+    {
+        "id": "3854768b1162d0ad",
+        "type": "ui_text",
+        "z": "90d457d7cfcbc260",
+        "group": "c38a1e390906e080",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Printer Position Logging",
+        "format": "<font color={{fcolor}}>{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 890,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "97dbc9d52a9eccf9",
+        "type": "http request",
+        "z": "90d457d7cfcbc260",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://localhost:8085/ship/data_logging/status",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 430,
+        "y": 940,
+        "wires": [
+            [
+                "ccf2a2a9b7f6e64e"
+            ]
+        ]
+    },
+    {
+        "id": "33d677ee696dc3d0",
+        "type": "inject",
+        "z": "90d457d7cfcbc260",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1.9",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 940,
+        "wires": [
+            [
+                "97dbc9d52a9eccf9"
+            ]
+        ]
+    },
+    {
+        "id": "ccf2a2a9b7f6e64e",
+        "type": "function",
+        "z": "90d457d7cfcbc260",
+        "name": "Ship Function",
+        "func": "\nif (msg.payload === 'True') {\n    msg.payload = 'Active';\n    msg.fcolor = 'green';\n} else {\n    msg.payload = 'Stopped';\n    msg.fcolor = 'red';\n}\nreturn msg",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 940,
+        "wires": [
+            [
+                "bf0f80a58ed15745"
+            ]
+        ]
+    },
+    {
+        "id": "bf0f80a58ed15745",
+        "type": "ui_text",
+        "z": "90d457d7cfcbc260",
+        "group": "c38a1e390906e080",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Ship Data Logging",
+        "format": "<font color={{fcolor}}>{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 870,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "092d2183321e6815",
+        "type": "http request",
+        "z": "90d457d7cfcbc260",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://localhost:8084/printer/data_logging/status",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 430,
+        "y": 860,
+        "wires": [
+            [
+                "783ab71ce198c692"
+            ]
+        ]
+    },
+    {
+        "id": "ee33c44f021795b1",
+        "type": "inject",
+        "z": "90d457d7cfcbc260",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1.7",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 860,
+        "wires": [
+            [
+                "092d2183321e6815"
+            ]
+        ]
+    },
+    {
+        "id": "783ab71ce198c692",
+        "type": "function",
+        "z": "90d457d7cfcbc260",
+        "name": "Printer Function",
+        "func": "\nif (msg.payload === 'True') {\n    msg.payload = 'Active';\n    msg.fcolor = 'green';\n} else {\n    msg.payload = 'Stopped';\n    msg.fcolor = 'red';\n}\nreturn msg",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 860,
+        "wires": [
+            [
+                "576349a860f41a3f"
+            ]
+        ]
+    },
+    {
+        "id": "4f6f6578f5c56563",
+        "type": "inject",
+        "z": "90d457d7cfcbc260",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": ".8",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 700,
+        "wires": [
+            [
+                "45baa3d7e5e2084f"
+            ]
+        ]
+    },
+    {
+        "id": "2c3a4ae08a38df22",
+        "type": "function",
+        "z": "90d457d7cfcbc260",
+        "name": "Camera 2 Function",
+        "func": "\nif (msg.payload === 'True') {\n    msg.payload = 'Active';\n    msg.fcolor = 'green';\n} else {\n    msg.payload = 'Stopped';\n    msg.fcolor = 'red';\n}\nreturn msg",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 540,
+        "wires": [
+            [
+                "d786adb30d7e257d"
+            ]
+        ]
+    },
+    {
+        "id": "f5b7f133ec50df5d",
+        "type": "http request",
+        "z": "90d457d7cfcbc260",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://localhost:8088/camera2/recording/status",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 430,
+        "y": 540,
+        "wires": [
+            [
+                "2c3a4ae08a38df22"
+            ]
+        ]
+    },
+    {
+        "id": "d786adb30d7e257d",
+        "type": "ui_text",
+        "z": "90d457d7cfcbc260",
+        "group": "c38a1e390906e080",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Camera 2 Recording",
+        "format": "<font color={{fcolor}}>{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 880,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "14b1b3be2dc90df5",
+        "type": "inject",
+        "z": "90d457d7cfcbc260",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": ".5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 540,
+        "wires": [
+            [
+                "f5b7f133ec50df5d"
+            ]
+        ]
+    },
+    {
+        "id": "b7b71b8ff35ad693",
+        "type": "function",
+        "z": "90d457d7cfcbc260",
+        "name": "Camera 3 Function",
+        "func": "\nif (msg.payload === 'True') {\n    msg.payload = 'Active';\n    msg.fcolor = 'green';\n} else {\n    msg.payload = 'Stopped';\n    msg.fcolor = 'red';\n}\nreturn msg",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 620,
+        "wires": [
+            [
+                "77ee1feddc6b07d8"
+            ]
+        ]
+    },
+    {
+        "id": "01e14c1310c492f2",
+        "type": "http request",
+        "z": "90d457d7cfcbc260",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://localhost:8089/camera3/recording/status",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 430,
+        "y": 620,
+        "wires": [
+            [
+                "b7b71b8ff35ad693"
+            ]
+        ]
+    },
+    {
+        "id": "77ee1feddc6b07d8",
+        "type": "ui_text",
+        "z": "90d457d7cfcbc260",
+        "group": "c38a1e390906e080",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Camera 3 Recording",
+        "format": "<font color={{fcolor}}>{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 880,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "f38fae9b4c4ab56a",
+        "type": "inject",
+        "z": "90d457d7cfcbc260",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": ".5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 620,
+        "wires": [
+            [
+                "01e14c1310c492f2"
+            ]
+        ]
+    },
+    {
+        "id": "8cd698117919751d",
+        "type": "ui_text",
+        "z": "90d457d7cfcbc260",
+        "group": "c38a1e390906e080",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Camera 1 Recording",
+        "format": "<font color={{fcolor}}>{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 880,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "f6cfce56bb588a50",
+        "type": "comment",
+        "z": "90d457d7cfcbc260",
+        "name": "Get status of each python script",
+        "info": "",
+        "x": 210,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "ec9dadfed24456cc",
+        "type": "catch",
+        "z": "90d457d7cfcbc260",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 440,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ce491c034638e42d",
+        "type": "function",
+        "z": "90d457d7cfcbc260",
+        "name": "Camera 1 Function",
+        "func": "\nif (msg.payload === 'True') {\n    msg.payload = 'Active';\n    msg.fcolor = 'green';\n} else {\n    msg.payload = 'Stopped';\n    msg.fcolor = 'red';\n}\nreturn msg",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 460,
+        "wires": [
+            [
+                "8cd698117919751d"
+            ]
+        ]
+    },
+    {
+        "id": "5a331ffca41d7cad",
+        "type": "function",
+        "z": "90d457d7cfcbc260",
+        "name": "IMU Function",
+        "func": "\nif (msg.payload === 'True') {\n    msg.payload = 'Active';\n    msg.fcolor = 'green';\n} else {\n    msg.payload = 'Stopped';\n    msg.fcolor = 'red';\n}\nreturn msg",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 340,
+        "wires": [
+            [
+                "e85ee108ecae6c58"
+            ]
+        ]
+    },
+    {
+        "id": "0568beb4485da92e",
+        "type": "http request",
+        "z": "90d457d7cfcbc260",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://localhost:8081/IMU/data_logging/status",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 430,
+        "y": 340,
+        "wires": [
+            [
+                "5a331ffca41d7cad"
+            ]
+        ]
+    },
+    {
+        "id": "d24986471ca3cf92",
+        "type": "inject",
+        "z": "90d457d7cfcbc260",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": ".5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 340,
+        "wires": [
+            [
+                "0568beb4485da92e"
+            ]
+        ]
+    },
+    {
+        "id": "e85ee108ecae6c58",
+        "type": "ui_text",
+        "z": "90d457d7cfcbc260",
+        "group": "c38a1e390906e080",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Motion Logging",
+        "format": "<font color={{fcolor}}>{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 860,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "030e2e1a84b1f645",
+        "type": "http in",
+        "z": "90d457d7cfcbc260",
+        "name": "send_notification",
+        "url": "/send_notification",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 280,
+        "y": 180,
+        "wires": [
+            [
+                "2fa6441c8b1f1c6c",
+                "18e6db10b8229ab2"
+            ]
+        ]
+    },
+    {
+        "id": "2fa6441c8b1f1c6c",
+        "type": "debug",
+        "z": "90d457d7cfcbc260",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "260b36bc0d19cf55",
+        "type": "debug",
+        "z": "90d457d7cfcbc260",
+        "name": "Debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "6de9283bb45ea0c9",
+        "type": "ui_toast",
+        "z": "90d457d7cfcbc260",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "red",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "Display Error Toast",
+        "x": 910,
+        "y": 240,
+        "wires": [
+            [
+                "ca31ea4b69e32370"
+            ]
+        ],
+        "icon": "fa-exclamation-triangle"
+    },
+    {
+        "id": "18e6db10b8229ab2",
+        "type": "function",
+        "z": "90d457d7cfcbc260",
+        "name": "Process Error Message",
+        "func": "var error_message = msg.payload.error_message;\n\nif (error_message) {\n    // msg.ui_toast = {\n    //     title: \"Error Notification\",\n    //     text: error_message,\n    //     duration: 5000, // Duration in milliseconds (5 sec)\n    //     type: \"error\" // You can also use \"success\", \"warning\", \"info\"\n    // };\n\n    var startIndex = error_message.indexOf('- ERROR -') + '- ERROR -'.length;\n    var errorMessageWithoutDateTime = error_message.substring(startIndex).trim();\n\n    msg.topic = \"Error Notification\"\n    msg.payload = errorMessageWithoutDateTime\n} else {\n    msg.topic = \"No Error\"\n    msg.payload = \"Empty\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 240,
+        "wires": [
+            [
+                "6de9283bb45ea0c9",
+                "260b36bc0d19cf55"
+            ]
+        ]
+    },
+    {
+        "id": "ca31ea4b69e32370",
+        "type": "debug",
+        "z": "90d457d7cfcbc260",
+        "name": "debug 11",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "97f228adfdb3b8c1",
+        "type": "fs-ops-mkdir",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "path": "home_dir",
+        "pathType": "flow",
+        "dirname": "base_filename",
+        "dirnameType": "flow",
+        "recursive": false,
+        "mode": "777",
+        "fullpath": "directory",
+        "fullpathType": "msg",
+        "x": 400,
+        "y": 580,
+        "wires": [
+            [
+                "f3bd09651bc9e902"
+            ]
+        ]
+    },
+    {
+        "id": "b12d01d00c35e990",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "function 2",
+        "func": "\nvar x = flow.get(\"home_dir\") + flow.get(\"base_filename\") + \"\\\\\";\nmsg= { payload: x };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 180,
+        "y": 400,
+        "wires": [
+            [
+                "0670ed4f32917905"
+            ]
+        ]
+    },
+    {
+        "id": "a17204b656c816d9",
+        "type": "inject",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "msg",
+        "x": 1210,
+        "y": 260,
+        "wires": [
+            [
+                "f80ded8823b99386"
+            ]
+        ]
+    },
+    {
+        "id": "8d1f4aea8c194441",
+        "type": "http in",
+        "z": "dab2abfe2b743e97",
+        "name": "IMU_file get",
+        "url": "/IMU_file",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 190,
+        "y": 820,
+        "wires": [
+            [
+                "d3f959206ab52001"
+            ]
+        ]
+    },
+    {
+        "id": "654cd16789f0788b",
+        "type": "http response",
+        "z": "dab2abfe2b743e97",
+        "name": "IMU_file response",
+        "statusCode": "",
+        "headers": {},
+        "x": 830,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "be75381c68a786d6",
+        "type": "ui_text_input",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "label": "Test ID",
+        "tooltip": "",
+        "group": "5c26d44c29787f92",
+        "order": 5,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "mode": "text",
+        "delay": "0",
+        "topic": "Test",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 180,
+        "y": 120,
+        "wires": [
+            [
+                "d0229b0cb363c688"
+            ]
+        ]
+    },
+    {
+        "id": "d0229b0cb363c688",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "test_id",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 120,
+        "wires": [
+            [
+                "a1e6bcf8feece19c"
+            ]
+        ]
+    },
+    {
+        "id": "d3f959206ab52001",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "IMU_file_path",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 820,
+        "wires": [
+            [
+                "654cd16789f0788b"
+            ]
+        ]
+    },
+    {
+        "id": "a1e6bcf8feece19c",
+        "type": "template",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "C:\\Users\\jdurairaj\\projects\\Tests\\",
+        "output": "str",
+        "x": 180,
+        "y": 280,
+        "wires": [
+            [
+                "8528c3024559ddf1"
+            ]
+        ]
+    },
+    {
+        "id": "8528c3024559ddf1",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "home_dir",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 280,
+        "wires": [
+            [
+                "306980492123877c"
+            ]
+        ]
+    },
+    {
+        "id": "b14ddbb67601f651",
+        "type": "ui_text_input",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "label": "Local directory path",
+        "tooltip": "",
+        "group": "8fbadbc879ecd5ca",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "home_dir",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "flow",
+        "x": 410,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "306980492123877c",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "home_dir",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 200,
+        "y": 320,
+        "wires": [
+            [
+                "b14ddbb67601f651",
+                "d5cdcb1498b84b13"
+            ]
+        ]
+    },
+    {
+        "id": "8b9c8aef3ffe1d7f",
+        "type": "ui_text",
+        "z": "dab2abfe2b743e97",
+        "group": "5c26d44c29787f92",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Date",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 530,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "b58d6b7f3ee99ce0",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "function 3",
+        "func": "var d = new Date();\nvar x =  d.toISOString().substring(0, 10)\nmsg = { payload: x };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 80,
+        "wires": [
+            [
+                "8b9c8aef3ffe1d7f"
+            ]
+        ]
+    },
+    {
+        "id": "ec5bc72f81b3b033",
+        "type": "template",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "C:\\Users\\jdurairaj\\OneDrive - Enginuity Inc\\14068 - DND Additive Manufacturing Sea Trial\\Design\\Automation and Robotics\\Test Sharepoint",
+        "output": "str",
+        "x": 1380,
+        "y": 160,
+        "wires": [
+            [
+                "bcaebdede5fea6fc"
+            ]
+        ]
+    },
+    {
+        "id": "ddc1cc048a6d3a4f",
+        "type": "inject",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "msg",
+        "x": 1210,
+        "y": 160,
+        "wires": [
+            [
+                "ec5bc72f81b3b033"
+            ]
+        ]
+    },
+    {
+        "id": "bcaebdede5fea6fc",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "sharepoint_path",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1610,
+        "y": 160,
+        "wires": [
+            [
+                "617a12835abd804a"
+            ]
+        ]
+    },
+    {
+        "id": "45d5d1349f4b592b",
+        "type": "comment",
+        "z": "dab2abfe2b743e97",
+        "name": "Set home directory and create sub directory for test",
+        "info": "Set home directory and create sub directory for the test",
+        "x": 310,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "0404eef86c4a97b2",
+        "type": "comment",
+        "z": "dab2abfe2b743e97",
+        "name": "Get test ID",
+        "info": "",
+        "x": 180,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "0670ed4f32917905",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "file_path",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 400,
+        "wires": [
+            [
+                "ca46c6674cc995e1"
+            ]
+        ]
+    },
+    {
+        "id": "d5cdcb1498b84b13",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "function 4",
+        "func": "var d = new Date();\nvar x = d.toISOString().substring(0, 10) + \" - \" + flow.get(\"test_id\");\nmsg= { payload: x };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 180,
+        "y": 360,
+        "wires": [
+            [
+                "6eda1f88a38df87a"
+            ]
+        ]
+    },
+    {
+        "id": "6eda1f88a38df87a",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "base_filename",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 360,
+        "wires": [
+            [
+                "b12d01d00c35e990"
+            ]
+        ]
+    },
+    {
+        "id": "4277d073db4f880d",
+        "type": "ui_button",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "group": "5c26d44c29787f92",
+        "order": 8,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "Update Filenames",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 210,
+        "y": 580,
+        "wires": [
+            [
+                "97f228adfdb3b8c1"
+            ]
+        ]
+    },
+    {
+        "id": "8b113a1f856212fd",
+        "type": "inject",
+        "z": "dab2abfe2b743e97",
+        "name": "At 00:00",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "00 00 * * *",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "msg",
+        "x": 180,
+        "y": 80,
+        "wires": [
+            [
+                "b58d6b7f3ee99ce0"
+            ]
+        ]
+    },
+    {
+        "id": "1ab4bf60355d0d0c",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "Set IMU file path",
+        "func": "\nvar x = flow.get(\"file_path\") + flow.get(\"IMU_file_name\");\nmsg= { payload: x };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 210,
+        "y": 940,
+        "wires": [
+            [
+                "b78d925283e75a7c"
+            ]
+        ]
+    },
+    {
+        "id": "b78d925283e75a7c",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IMU_file_path",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e52cf3b16779c144",
+        "type": "comment",
+        "z": "dab2abfe2b743e97",
+        "name": "File indexing logic",
+        "info": "",
+        "x": 1250,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "f3bd09651bc9e902",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "file_index",
+                "pt": "flow",
+                "to": "A",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1510,
+        "y": 460,
+        "wires": [
+            [
+                "be6088669ba96442"
+            ]
+        ]
+    },
+    {
+        "id": "a255b2e035639971",
+        "type": "comment",
+        "z": "dab2abfe2b743e97",
+        "name": "Sharepoint upload info",
+        "info": "",
+        "x": 1260,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "52eea8d24677e417",
+        "type": "ui_text",
+        "z": "dab2abfe2b743e97",
+        "group": "d3b06de3a8f69cdc",
+        "order": 2,
+        "width": 10,
+        "height": 1,
+        "name": "",
+        "label": "Motion data file name",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 520,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "9959ae0a3cd49d9c",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IMU_file_name",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 900,
+        "wires": [
+            [
+                "1ab4bf60355d0d0c",
+                "91b4d34d565bf0f1"
+            ]
+        ]
+    },
+    {
+        "id": "4a67bbb3d69941ba",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "Set IMU file name",
+        "func": "var y = \" - Motion - \"\nvar i = flow.get(\"file_index\")\nvar x = flow.get(\"base_filename\") + y + i +\".csv\";\nmsg= { payload: x };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 210,
+        "y": 900,
+        "wires": [
+            [
+                "9959ae0a3cd49d9c",
+                "52eea8d24677e417"
+            ]
+        ]
+    },
+    {
+        "id": "ee5a155718e11e91",
+        "type": "ui_toast",
+        "z": "dab2abfe2b743e97",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK - Overwrite",
+        "cancel": "Cancel",
+        "raw": false,
+        "className": "",
+        "topic": "File Exists",
+        "name": "File Already Exists",
+        "x": 670,
+        "y": 500,
+        "wires": [
+            [
+                "810c8c53b5e22541"
+            ]
+        ]
+    },
+    {
+        "id": "be6088669ba96442",
+        "type": "link out",
+        "z": "dab2abfe2b743e97",
+        "name": "link out 3",
+        "mode": "link",
+        "links": [
+            "1dca8c5b72231236",
+            "38a499652443c0a1",
+            "79ec8f30b2ebe6b4",
+            "e2019ab175af53ef",
+            "b6fc2c34f0039d57",
+            "bdfa7fb317bbf94c",
+            "01e0c97f9a3d62a2",
+            "844d8f05a2f0a333",
+            "09262e6de4a302e6",
+            "0323c32e6ab90670"
+        ],
+        "x": 1665,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "1ee798cf10ad3d83",
+        "type": "fs-ops-access",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "path": "file_path",
+        "pathType": "flow",
+        "filename": "log_file_name",
+        "filenameType": "flow",
+        "read": true,
+        "write": false,
+        "throwerror": true,
+        "x": 650,
+        "y": 460,
+        "wires": [
+            [
+                "ee5a155718e11e91"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "38a499652443c0a1",
+        "type": "link in",
+        "z": "dab2abfe2b743e97",
+        "name": "link in 7",
+        "links": [
+            "4d74b43dd4b226ab",
+            "be6088669ba96442"
+        ],
+        "x": 65,
+        "y": 900,
+        "wires": [
+            [
+                "4a67bbb3d69941ba"
+            ]
+        ]
+    },
+    {
+        "id": "ca46c6674cc995e1",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "function 7",
+        "func": "var y = flow.get(\"base_filename\") + \" - Log.txt\"\nmsg= { payload: y };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 180,
+        "y": 460,
+        "wires": [
+            [
+                "4cea305f994262f9"
+            ]
+        ]
+    },
+    {
+        "id": "4cea305f994262f9",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "log_file_name",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 460,
+        "wires": [
+            [
+                "1ee798cf10ad3d83",
+                "7bfadeeda5629172"
+            ]
+        ]
+    },
+    {
+        "id": "50312c2682789f1b",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "log_file_path",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7bfadeeda5629172",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "function 6",
+        "func": "var x = flow.get(\"home_dir\") + flow.get(\"base_filename\") + \"\\\\\" + flow.get(\"log_file_name\");\nmsg= { payload: x };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 180,
+        "y": 500,
+        "wires": [
+            [
+                "50312c2682789f1b"
+            ]
+        ]
+    },
+    {
+        "id": "b76be8dfd515d46b",
+        "type": "comment",
+        "z": "dab2abfe2b743e97",
+        "name": "IMU file setup and response",
+        "info": "",
+        "x": 240,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "2942c8f7bd9ecab2",
+        "type": "http in",
+        "z": "dab2abfe2b743e97",
+        "name": "camera_1_file get",
+        "url": "/camera_1_file",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 210,
+        "y": 1060,
+        "wires": [
+            [
+                "be77a03618f69686"
+            ]
+        ]
+    },
+    {
+        "id": "db49dfc1ca8953db",
+        "type": "http response",
+        "z": "dab2abfe2b743e97",
+        "name": "camera_1_file response",
+        "statusCode": "",
+        "headers": {},
+        "x": 830,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "be77a03618f69686",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "camera_1_file_path",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 1060,
+        "wires": [
+            [
+                "db49dfc1ca8953db"
+            ]
+        ]
+    },
+    {
+        "id": "448e1e0bf90fa80a",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "Set camera 1 file path",
+        "func": "\nvar x = flow.get(\"file_path\") + flow.get(\"camera_1_file_name\");\nmsg= { payload: x };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 220,
+        "y": 1180,
+        "wires": [
+            [
+                "b70a1fafba9fab24"
+            ]
+        ]
+    },
+    {
+        "id": "b70a1fafba9fab24",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "camera_1_file_path",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "40ec943c6e09e527",
+        "type": "ui_text",
+        "z": "dab2abfe2b743e97",
+        "group": "d3b06de3a8f69cdc",
+        "order": 5,
+        "width": 10,
+        "height": 1,
+        "name": "",
+        "label": "Camera 1 file name",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 490,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "45e7a509dcc5619a",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "camera_1_file_name",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 1140,
+        "wires": [
+            [
+                "448e1e0bf90fa80a",
+                "c0d8fbea1c52c768"
+            ]
+        ]
+    },
+    {
+        "id": "c3a0850a8f797f8a",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "Set camera 1 file name",
+        "func": "var y = \" - Camera 1 - \"\nvar i = flow.get(\"file_index\")\nvar x = flow.get(\"base_filename\") + y + i +\".mp4\";\nmsg= { payload: x };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 1140,
+        "wires": [
+            [
+                "45e7a509dcc5619a",
+                "40ec943c6e09e527"
+            ]
+        ]
+    },
+    {
+        "id": "b8c793f19f44b70e",
+        "type": "comment",
+        "z": "dab2abfe2b743e97",
+        "name": "Camera 1 file setup and response",
+        "info": "",
+        "x": 250,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "6f4e83469330b14e",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "log_file_path",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 620,
+        "wires": [
+            [
+                "fb0209a1cd65373e"
+            ]
+        ]
+    },
+    {
+        "id": "45c6608ab7b2bdc9",
+        "type": "http in",
+        "z": "dab2abfe2b743e97",
+        "name": "log_file get",
+        "url": "/log_file",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 180,
+        "y": 620,
+        "wires": [
+            [
+                "6f4e83469330b14e"
+            ]
+        ]
+    },
+    {
+        "id": "fb0209a1cd65373e",
+        "type": "http response",
+        "z": "dab2abfe2b743e97",
+        "name": "log_file response",
+        "statusCode": "",
+        "headers": {},
+        "x": 670,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "aa56ccb3a406f645",
+        "type": "http in",
+        "z": "dab2abfe2b743e97",
+        "name": "camera_2_file get",
+        "url": "/camera_2_file",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 210,
+        "y": 1300,
+        "wires": [
+            [
+                "55953fd6320a63d2"
+            ]
+        ]
+    },
+    {
+        "id": "16952aea2885eaeb",
+        "type": "http response",
+        "z": "dab2abfe2b743e97",
+        "name": "camera_2_file response",
+        "statusCode": "",
+        "headers": {},
+        "x": 830,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "55953fd6320a63d2",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "camera_2_file_path",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 1300,
+        "wires": [
+            [
+                "16952aea2885eaeb"
+            ]
+        ]
+    },
+    {
+        "id": "5dbaed21ea0a8cc9",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "Set camera 2 file path",
+        "func": "\nvar x = flow.get(\"file_path\") + flow.get(\"camera_2_file_name\");\nmsg= { payload: x };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 220,
+        "y": 1420,
+        "wires": [
+            [
+                "13837103a3a966a7"
+            ]
+        ]
+    },
+    {
+        "id": "13837103a3a966a7",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "camera_2_file_path",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 1420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e12e0e9cd93f37b4",
+        "type": "ui_text",
+        "z": "dab2abfe2b743e97",
+        "group": "d3b06de3a8f69cdc",
+        "order": 8,
+        "width": 10,
+        "height": 1,
+        "name": "",
+        "label": "Camera 2 file name",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 490,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "5622adf77e7a8b31",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "camera_2_file_name",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 1380,
+        "wires": [
+            [
+                "5dbaed21ea0a8cc9",
+                "b028111986c248a0"
+            ]
+        ]
+    },
+    {
+        "id": "c3663ce0eca10720",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "Set camera 2 file name",
+        "func": "var y = \" - Camera 2 - \"\nvar i = flow.get(\"file_index\")\nvar x = flow.get(\"base_filename\") + y + i +\".mp4\";\nmsg= { payload: x };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 1380,
+        "wires": [
+            [
+                "5622adf77e7a8b31",
+                "e12e0e9cd93f37b4"
+            ]
+        ]
+    },
+    {
+        "id": "2d60c0cdea218063",
+        "type": "comment",
+        "z": "dab2abfe2b743e97",
+        "name": "Camera 2 file setup and response",
+        "info": "",
+        "x": 250,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "7e15b459d7ef30a2",
+        "type": "http response",
+        "z": "dab2abfe2b743e97",
+        "name": "camera_3_file response",
+        "statusCode": "",
+        "headers": {},
+        "x": 830,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "565bcb5f35dd1f3a",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "camera_3_file_path",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 1540,
+        "wires": [
+            [
+                "7e15b459d7ef30a2"
+            ]
+        ]
+    },
+    {
+        "id": "fecabf0ced53cf6b",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "Set camera 3 file path",
+        "func": "\nvar x = flow.get(\"file_path\") + flow.get(\"camera_3_file_name\");\nmsg= { payload: x };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 220,
+        "y": 1660,
+        "wires": [
+            [
+                "0469dd24b093396c"
+            ]
+        ]
+    },
+    {
+        "id": "0469dd24b093396c",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "camera_3_file_path",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 1660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d5153abe6887008e",
+        "type": "ui_text",
+        "z": "dab2abfe2b743e97",
+        "group": "d3b06de3a8f69cdc",
+        "order": 11,
+        "width": 10,
+        "height": 1,
+        "name": "",
+        "label": "Camera 3 file name",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 490,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "160e65b9588ca0c7",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "camera_3_file_name",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 1620,
+        "wires": [
+            [
+                "fecabf0ced53cf6b",
+                "23bc0588312e8a5a"
+            ]
+        ]
+    },
+    {
+        "id": "13848bac6e03303f",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "Set camera 3 file name",
+        "func": "var y = \" - Camera 3 - \"\nvar i = flow.get(\"file_index\")\nvar x = flow.get(\"base_filename\") + y + i +\".mp4\";\nmsg= { payload: x };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 1620,
+        "wires": [
+            [
+                "160e65b9588ca0c7",
+                "d5153abe6887008e"
+            ]
+        ]
+    },
+    {
+        "id": "08f6b5f2f7b988bc",
+        "type": "comment",
+        "z": "dab2abfe2b743e97",
+        "name": "Camera 3 file setup and response",
+        "info": "",
+        "x": 250,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "c675fd1f17da4c08",
+        "type": "http in",
+        "z": "dab2abfe2b743e97",
+        "name": "sensors_file get",
+        "url": "/sensors_file",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 1240,
+        "y": 820,
+        "wires": [
+            [
+                "f57e8777d5859e86"
+            ]
+        ]
+    },
+    {
+        "id": "6e99f4e31f8bf579",
+        "type": "http response",
+        "z": "dab2abfe2b743e97",
+        "name": "sensors_file response",
+        "statusCode": "",
+        "headers": {},
+        "x": 1880,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "f57e8777d5859e86",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "sensors_file_path",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1540,
+        "y": 820,
+        "wires": [
+            [
+                "6e99f4e31f8bf579"
+            ]
+        ]
+    },
+    {
+        "id": "14fc657d62a9dd19",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "Set sensors file path",
+        "func": "\nvar x = flow.get(\"file_path\") + flow.get(\"sensors_file_name\");\nmsg= { payload: x };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1260,
+        "y": 940,
+        "wires": [
+            [
+                "cf61a41e1d592f1e"
+            ]
+        ]
+    },
+    {
+        "id": "cf61a41e1d592f1e",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "sensors_file_path",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1570,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cc52dbe49053cd09",
+        "type": "ui_text",
+        "z": "dab2abfe2b743e97",
+        "group": "d3b06de3a8f69cdc",
+        "order": 14,
+        "width": 10,
+        "height": 1,
+        "name": "",
+        "label": "Sensors data file name",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1560,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "958c45bc1a508c32",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "sensors_file_name",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1580,
+        "y": 900,
+        "wires": [
+            [
+                "14fc657d62a9dd19",
+                "e0b9e6eb8b3d0ec3"
+            ]
+        ]
+    },
+    {
+        "id": "aa15a3a539b7abdb",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "Set sensors file name",
+        "func": "var y = \" - Sensors - \"\nvar i = flow.get(\"file_index\")\nvar x = flow.get(\"base_filename\") + y + i +\".csv\";\nmsg= { payload: x };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1260,
+        "y": 900,
+        "wires": [
+            [
+                "958c45bc1a508c32",
+                "cc52dbe49053cd09"
+            ]
+        ]
+    },
+    {
+        "id": "34b1573067ca6ba3",
+        "type": "comment",
+        "z": "dab2abfe2b743e97",
+        "name": "Sensors file setup and response",
+        "info": "",
+        "x": 1290,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "bfce0113716d2a72",
+        "type": "http in",
+        "z": "dab2abfe2b743e97",
+        "name": "printer_file get",
+        "url": "/printer_file",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 1230,
+        "y": 1060,
+        "wires": [
+            [
+                "d51d36864a84ab7b"
+            ]
+        ]
+    },
+    {
+        "id": "715e90e93e8d1801",
+        "type": "http response",
+        "z": "dab2abfe2b743e97",
+        "name": "printer_file response",
+        "statusCode": "",
+        "headers": {},
+        "x": 1880,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "d51d36864a84ab7b",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "printer_file_path",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1540,
+        "y": 1060,
+        "wires": [
+            [
+                "715e90e93e8d1801"
+            ]
+        ]
+    },
+    {
+        "id": "a6931633d2bf9ac4",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "Set sensors file path",
+        "func": "\nvar x = flow.get(\"file_path\") + flow.get(\"printer_file_name\");\nmsg= { payload: x };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1260,
+        "y": 1180,
+        "wires": [
+            [
+                "f50c9ecd7c60828a"
+            ]
+        ]
+    },
+    {
+        "id": "f50c9ecd7c60828a",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "printer_file_path",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1570,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7d17fa83083f6bbd",
+        "type": "ui_text",
+        "z": "dab2abfe2b743e97",
+        "group": "d3b06de3a8f69cdc",
+        "order": 17,
+        "width": 10,
+        "height": 1,
+        "name": "",
+        "label": "Printer data file name",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1560,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "378205027de6cd9f",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "printer_file_name",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1570,
+        "y": 1140,
+        "wires": [
+            [
+                "a6931633d2bf9ac4",
+                "d9b178d31137f2d1"
+            ]
+        ]
+    },
+    {
+        "id": "bafa88eef0a47ba6",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "Set printer file name",
+        "func": "var y = \" - Printer - \"\nvar i = flow.get(\"file_index\")\nvar x = flow.get(\"base_filename\") + y + i +\".csv\";\nmsg= { payload: x };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1260,
+        "y": 1140,
+        "wires": [
+            [
+                "378205027de6cd9f",
+                "7d17fa83083f6bbd"
+            ]
+        ]
+    },
+    {
+        "id": "a747a9bfe86ccbc9",
+        "type": "comment",
+        "z": "dab2abfe2b743e97",
+        "name": "Printer file setup and response",
+        "info": "",
+        "x": 1280,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "a82386aee010c9e0",
+        "type": "http in",
+        "z": "dab2abfe2b743e97",
+        "name": "position_file get",
+        "url": "/position_file",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 1240,
+        "y": 1300,
+        "wires": [
+            [
+                "624c325b86f28bd2"
+            ]
+        ]
+    },
+    {
+        "id": "f0dc6f5dd34c50fb",
+        "type": "http response",
+        "z": "dab2abfe2b743e97",
+        "name": "position_file response",
+        "statusCode": "",
+        "headers": {},
+        "x": 1880,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "624c325b86f28bd2",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "position_file_path",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1540,
+        "y": 1300,
+        "wires": [
+            [
+                "f0dc6f5dd34c50fb"
+            ]
+        ]
+    },
+    {
+        "id": "d7b20936f2ae82f0",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "Set position file path",
+        "func": "\nvar x = flow.get(\"file_path\") + flow.get(\"position_file_name\");\nmsg= { payload: x };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1260,
+        "y": 1420,
+        "wires": [
+            [
+                "f240f852cc3db7c6"
+            ]
+        ]
+    },
+    {
+        "id": "f240f852cc3db7c6",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "position_file_path",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1570,
+        "y": 1420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6702a761de25d1d5",
+        "type": "ui_text",
+        "z": "dab2abfe2b743e97",
+        "group": "d3b06de3a8f69cdc",
+        "order": 20,
+        "width": 10,
+        "height": 1,
+        "name": "",
+        "label": "Position data file name",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1560,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "767d218ce188e30c",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "position_file_name",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1580,
+        "y": 1380,
+        "wires": [
+            [
+                "d7b20936f2ae82f0",
+                "2f1d1cb7bb987bd1"
+            ]
+        ]
+    },
+    {
+        "id": "3ccba0c322fc9521",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "Set position file name",
+        "func": "var y = \" - Position - \"\nvar i = flow.get(\"file_index\")\nvar x = flow.get(\"base_filename\") + y + i +\".csv\";\nmsg= { payload: x };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1260,
+        "y": 1380,
+        "wires": [
+            [
+                "767d218ce188e30c",
+                "6702a761de25d1d5"
+            ]
+        ]
+    },
+    {
+        "id": "85b7541cc738cbbe",
+        "type": "comment",
+        "z": "dab2abfe2b743e97",
+        "name": "Position file setup and response",
+        "info": "",
+        "x": 1290,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "810c8c53b5e22541",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "function 8",
+        "func": "\nif (msg.payload === 'OK - Overwrite') {\n    return msg\n}\nelse {\n\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 540,
+        "wires": [
+            [
+                "be6088669ba96442"
+            ]
+        ]
+    },
+    {
+        "id": "77c64a9f66792d81",
+        "type": "catch",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 1220,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "91b4d34d565bf0f1",
+        "type": "fs-ops-access",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "path": "file_path",
+        "pathType": "flow",
+        "filename": "IMU_file_name",
+        "filenameType": "flow",
+        "read": true,
+        "write": false,
+        "throwerror": true,
+        "x": 810,
+        "y": 900,
+        "wires": [
+            [
+                "c6270bcecacdd374"
+            ],
+            [
+                "c3a0850a8f797f8a"
+            ]
+        ]
+    },
+    {
+        "id": "97dac9e6d81936ec",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "function 9",
+        "func": "if (flow.get(\"file_index\")== \"J\") {\n    flow.set(\"file_index\",\"K\")\n}\nif (flow.get(\"file_index\")== \"I\") {\n    flow.set(\"file_index\",\"J\")\n}\nif (flow.get(\"file_index\")== \"H\") {\n    flow.set(\"file_index\",\"I\")\n}\nif (flow.get(\"file_index\")== \"G\") {\n    flow.set(\"file_index\",\"H\")\n}\nif (flow.get(\"file_index\")== \"F\") {\n    flow.set(\"file_index\",\"G\")\n}\nif (flow.get(\"file_index\")== \"E\") {\n    flow.set(\"file_index\",\"F\")\n}\nif (flow.get(\"file_index\")== \"D\") {\n    flow.set(\"file_index\",\"ED\")\n}\nif (flow.get(\"file_index\")== \"C\") {\n    flow.set(\"file_index\",\"D\")\n}\nif (flow.get(\"file_index\")== \"B\") {\n    flow.set(\"file_index\",\"C\")\n}\nif (flow.get(\"file_index\")== \"A\") {\n    flow.set(\"file_index\",\"B\")\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1480,
+        "y": 500,
+        "wires": [
+            [
+                "be6088669ba96442"
+            ]
+        ]
+    },
+    {
+        "id": "c6270bcecacdd374",
+        "type": "link out",
+        "z": "dab2abfe2b743e97",
+        "name": "link out 4",
+        "mode": "link",
+        "links": [
+            "93651bbe281d52d9"
+        ],
+        "x": 915,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "93651bbe281d52d9",
+        "type": "link in",
+        "z": "dab2abfe2b743e97",
+        "name": "link in 14",
+        "links": [
+            "918e8e69b147d289",
+            "924528b1dce6edfc",
+            "efb625c9e71e1265",
+            "a27a9075d9708e5b",
+            "d4f5b066ec187db5",
+            "c6270bcecacdd374",
+            "9a902bb006dcf88e"
+        ],
+        "x": 1105,
+        "y": 540,
+        "wires": [
+            [
+                "f8014c9886a834d3"
+            ]
+        ]
+    },
+    {
+        "id": "c0d8fbea1c52c768",
+        "type": "fs-ops-access",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "path": "file_path",
+        "pathType": "flow",
+        "filename": "camera_1_file_name",
+        "filenameType": "flow",
+        "read": true,
+        "write": false,
+        "throwerror": true,
+        "x": 790,
+        "y": 1140,
+        "wires": [
+            [
+                "9a902bb006dcf88e"
+            ],
+            [
+                "c3663ce0eca10720"
+            ]
+        ]
+    },
+    {
+        "id": "9a902bb006dcf88e",
+        "type": "link out",
+        "z": "dab2abfe2b743e97",
+        "name": "link out 5",
+        "mode": "link",
+        "links": [
+            "93651bbe281d52d9"
+        ],
+        "x": 905,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "b028111986c248a0",
+        "type": "fs-ops-access",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "path": "file_path",
+        "pathType": "flow",
+        "filename": "camera_2_file_name",
+        "filenameType": "flow",
+        "read": true,
+        "write": false,
+        "throwerror": true,
+        "x": 790,
+        "y": 1380,
+        "wires": [
+            [
+                "efb625c9e71e1265"
+            ],
+            [
+                "13848bac6e03303f"
+            ]
+        ]
+    },
+    {
+        "id": "efb625c9e71e1265",
+        "type": "link out",
+        "z": "dab2abfe2b743e97",
+        "name": "link out 6",
+        "mode": "link",
+        "links": [
+            "93651bbe281d52d9"
+        ],
+        "x": 905,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "23bc0588312e8a5a",
+        "type": "fs-ops-access",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "path": "file_path",
+        "pathType": "flow",
+        "filename": "camera_3_file_name",
+        "filenameType": "flow",
+        "read": true,
+        "write": false,
+        "throwerror": true,
+        "x": 790,
+        "y": 1620,
+        "wires": [
+            [
+                "924528b1dce6edfc"
+            ],
+            [
+                "aa15a3a539b7abdb"
+            ]
+        ]
+    },
+    {
+        "id": "924528b1dce6edfc",
+        "type": "link out",
+        "z": "dab2abfe2b743e97",
+        "name": "link out 7",
+        "mode": "link",
+        "links": [
+            "93651bbe281d52d9"
+        ],
+        "x": 895,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "e0b9e6eb8b3d0ec3",
+        "type": "fs-ops-access",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "path": "file_path",
+        "pathType": "flow",
+        "filename": "sensors_file_name",
+        "filenameType": "flow",
+        "read": true,
+        "write": false,
+        "throwerror": true,
+        "x": 1850,
+        "y": 900,
+        "wires": [
+            [
+                "918e8e69b147d289"
+            ],
+            [
+                "bafa88eef0a47ba6"
+            ]
+        ]
+    },
+    {
+        "id": "918e8e69b147d289",
+        "type": "link out",
+        "z": "dab2abfe2b743e97",
+        "name": "link out 8",
+        "mode": "link",
+        "links": [
+            "93651bbe281d52d9"
+        ],
+        "x": 1945,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "d9b178d31137f2d1",
+        "type": "fs-ops-access",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "path": "file_path",
+        "pathType": "flow",
+        "filename": "printer_file_name",
+        "filenameType": "flow",
+        "read": true,
+        "write": false,
+        "throwerror": true,
+        "x": 1850,
+        "y": 1140,
+        "wires": [
+            [
+                "a27a9075d9708e5b"
+            ],
+            [
+                "3ccba0c322fc9521"
+            ]
+        ]
+    },
+    {
+        "id": "a27a9075d9708e5b",
+        "type": "link out",
+        "z": "dab2abfe2b743e97",
+        "name": "link out 9",
+        "mode": "link",
+        "links": [
+            "93651bbe281d52d9"
+        ],
+        "x": 1945,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "2f1d1cb7bb987bd1",
+        "type": "fs-ops-access",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "path": "file_path",
+        "pathType": "flow",
+        "filename": "position_file_name",
+        "filenameType": "flow",
+        "read": true,
+        "write": false,
+        "throwerror": true,
+        "x": 1850,
+        "y": 1380,
+        "wires": [
+            [
+                "d4f5b066ec187db5"
+            ],
+            [
+                "3b640c29c295f1ff"
+            ]
+        ]
+    },
+    {
+        "id": "d4f5b066ec187db5",
+        "type": "link out",
+        "z": "dab2abfe2b743e97",
+        "name": "link out 10",
+        "mode": "link",
+        "links": [
+            "93651bbe281d52d9"
+        ],
+        "x": 1945,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "c65548ca0c247a20",
+        "type": "file",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 1480,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f8014c9886a834d3",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "function 10",
+        "func": "var x = \"File with index \" + flow.get(\"file_index\") + \" already exists\";\nmsg.payload = x;\nmsg.filename = flow.get(\"log_file_path\")\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1230,
+        "y": 540,
+        "wires": [
+            [
+                "c65548ca0c247a20",
+                "97dac9e6d81936ec"
+            ]
+        ]
+    },
+    {
+        "id": "4af20349a99a3a75",
+        "type": "link in",
+        "z": "dab2abfe2b743e97",
+        "name": "link in 16",
+        "links": [
+            "4d74b43dd4b226ab"
+        ],
+        "x": 1105,
+        "y": 640,
+        "wires": [
+            [
+                "2949c5a3506ffb04"
+            ]
+        ]
+    },
+    {
+        "id": "f4bc19b7539546ae",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "function 11",
+        "func": "var x = \"Writing to files with index \" + flow.get(\"file_index\");\nmsg.payload = x;\nmsg.filename = flow.get(\"log_file_path\")\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1490,
+        "y": 640,
+        "wires": [
+            [
+                "bed08e135e27fbca"
+            ]
+        ]
+    },
+    {
+        "id": "bed08e135e27fbca",
+        "type": "file",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 1720,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2949c5a3506ffb04",
+        "type": "delay",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1230,
+        "y": 640,
+        "wires": [
+            [
+                "f4bc19b7539546ae"
+            ]
+        ]
+    },
+    {
+        "id": "617a12835abd804a",
+        "type": "ui_text_input",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "label": "Sharepoint directory path",
+        "tooltip": "",
+        "group": "8fbadbc879ecd5ca",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "home_dir",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "flow",
+        "x": 1870,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f80ded8823b99386",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "function 12",
+        "func": "\nvar y = flow.get(\"base_filename\") + \"\\\\\";\n\nmsg = { payload:y }\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 220,
+        "wires": [
+            [
+                "a468f4bf7a616590"
+            ]
+        ]
+    },
+    {
+        "id": "a468f4bf7a616590",
+        "type": "fs-copy-move",
+        "z": "dab2abfe2b743e97",
+        "oper": "cp",
+        "srcPath": "home_dir",
+        "srcPathType": "flow",
+        "srcFilename": "payload",
+        "srcFilenameType": "msg",
+        "dstPath": "sharepoint_path",
+        "dstPathType": "flow",
+        "dstFilename": "",
+        "dstFilenameType": "str",
+        "overwrite": true,
+        "name": "",
+        "x": 1560,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "515b9f87be64f4e4",
+        "type": "ui_button",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "group": "5c26d44c29787f92",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Copy to Sharepoint",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1170,
+        "y": 220,
+        "wires": [
+            [
+                "f80ded8823b99386"
+            ]
+        ]
+    },
+    {
+        "id": "614fd7b773bbbfe4",
+        "type": "http in",
+        "z": "dab2abfe2b743e97",
+        "name": "camera_3_file get",
+        "url": "/camera_3_file",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 210,
+        "y": 1540,
+        "wires": [
+            [
+                "565bcb5f35dd1f3a"
+            ]
+        ]
+    },
+    {
+        "id": "fa364f76a12eeb3b",
+        "type": "http in",
+        "z": "dab2abfe2b743e97",
+        "name": "ship_file get",
+        "url": "/ship_file",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 1230,
+        "y": 1560,
+        "wires": [
+            [
+                "8614222c16269f84"
+            ]
+        ]
+    },
+    {
+        "id": "5a6ed7af4b2aca0b",
+        "type": "http response",
+        "z": "dab2abfe2b743e97",
+        "name": "ship_file response",
+        "statusCode": "",
+        "headers": {},
+        "x": 1870,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "8614222c16269f84",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "ship_file_path",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1540,
+        "y": 1560,
+        "wires": [
+            [
+                "5a6ed7af4b2aca0b"
+            ]
+        ]
+    },
+    {
+        "id": "dd69e18b61829110",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "Set position file path",
+        "func": "\nvar x = flow.get(\"file_path\") + flow.get(\"ship_file_name\");\nmsg= { payload: x };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1260,
+        "y": 1680,
+        "wires": [
+            [
+                "984637ac1bf84e11"
+            ]
+        ]
+    },
+    {
+        "id": "984637ac1bf84e11",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ship_file_path",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1560,
+        "y": 1680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "da6ad06742863728",
+        "type": "ui_text",
+        "z": "dab2abfe2b743e97",
+        "group": "d3b06de3a8f69cdc",
+        "order": 23,
+        "width": 10,
+        "height": 1,
+        "name": "",
+        "label": "Ship data file name",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1550,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "5b8fe9e11fa66b98",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ship_file_name",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1570,
+        "y": 1640,
+        "wires": [
+            [
+                "dd69e18b61829110",
+                "5d29a28c13362930"
+            ]
+        ]
+    },
+    {
+        "id": "3b640c29c295f1ff",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "Set ship file name",
+        "func": "var y = \" - Ship - \"\nvar i = flow.get(\"file_index\")\nvar x = flow.get(\"base_filename\") + y + i +\".csv\";\nmsg= { payload: x };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 1640,
+        "wires": [
+            [
+                "5b8fe9e11fa66b98",
+                "da6ad06742863728"
+            ]
+        ]
+    },
+    {
+        "id": "88821b5f63558ca6",
+        "type": "comment",
+        "z": "dab2abfe2b743e97",
+        "name": "Ship file setup and response",
+        "info": "",
+        "x": 1280,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "5d29a28c13362930",
+        "type": "fs-ops-access",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "path": "file_path",
+        "pathType": "flow",
+        "filename": "ship_file_name",
+        "filenameType": "flow",
+        "read": true,
+        "write": false,
+        "throwerror": true,
+        "x": 1850,
+        "y": 1640,
+        "wires": [
+            [
+                "563465f933e89a3b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "563465f933e89a3b",
+        "type": "link out",
+        "z": "dab2abfe2b743e97",
+        "name": "link out 11",
+        "mode": "link",
+        "links": [
+            "88e392f06a83cffc"
+        ],
+        "x": 1945,
+        "y": 1600,
+        "wires": []
+    }
+]
