@@ -13,5 +13,11 @@
         "node-red-contrib-python3-function": "~0.0.4",
         "node-red-contrib-pythonshell": "~1.5.4",
         "node-red-node-daemon": "~0.6.0"
+    },
+    "node-red": {
+        "settings": {
+            "flowFile": "Leeway-Marine.json",
+            "credentialsFile": "Leeway-Marine_cred.json"
+        }
     }
 }
