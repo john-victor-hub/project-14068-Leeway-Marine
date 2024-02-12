@@ -352,7 +352,7 @@
         "z": "dab2abfe2b743e97",
         "name": "spacer",
         "group": "d3b06de3a8f69cdc",
-        "order": 3,
+        "order": 2,
         "width": 1,
         "height": 1
     },
@@ -362,7 +362,7 @@
         "z": "dab2abfe2b743e97",
         "name": "spacer",
         "group": "d3b06de3a8f69cdc",
-        "order": 21,
+        "order": 19,
         "width": 1,
         "height": 1
     },
@@ -372,7 +372,7 @@
         "z": "dab2abfe2b743e97",
         "name": "spacer",
         "group": "d3b06de3a8f69cdc",
-        "order": 6,
+        "order": 4,
         "width": 1,
         "height": 1
     },
@@ -382,7 +382,7 @@
         "z": "dab2abfe2b743e97",
         "name": "spacer",
         "group": "d3b06de3a8f69cdc",
-        "order": 7,
+        "order": 5,
         "width": 1,
         "height": 1
     },
@@ -392,7 +392,7 @@
         "z": "dab2abfe2b743e97",
         "name": "spacer",
         "group": "d3b06de3a8f69cdc",
-        "order": 9,
+        "order": 7,
         "width": 1,
         "height": 1
     },
@@ -402,7 +402,7 @@
         "z": "dab2abfe2b743e97",
         "name": "spacer",
         "group": "d3b06de3a8f69cdc",
-        "order": 10,
+        "order": 8,
         "width": 1,
         "height": 1
     },
@@ -412,7 +412,7 @@
         "z": "dab2abfe2b743e97",
         "name": "spacer",
         "group": "d3b06de3a8f69cdc",
-        "order": 12,
+        "order": 10,
         "width": 1,
         "height": 1
     },
@@ -422,7 +422,7 @@
         "z": "dab2abfe2b743e97",
         "name": "spacer",
         "group": "d3b06de3a8f69cdc",
-        "order": 13,
+        "order": 11,
         "width": 1,
         "height": 1
     },
@@ -432,7 +432,7 @@
         "z": "dab2abfe2b743e97",
         "name": "spacer",
         "group": "d3b06de3a8f69cdc",
-        "order": 15,
+        "order": 13,
         "width": 1,
         "height": 1
     },
@@ -442,7 +442,7 @@
         "z": "dab2abfe2b743e97",
         "name": "spacer",
         "group": "d3b06de3a8f69cdc",
-        "order": 16,
+        "order": 14,
         "width": 1,
         "height": 1
     },
@@ -452,7 +452,7 @@
         "z": "dab2abfe2b743e97",
         "name": "spacer",
         "group": "d3b06de3a8f69cdc",
-        "order": 18,
+        "order": 16,
         "width": 1,
         "height": 1
     },
@@ -462,7 +462,7 @@
         "z": "dab2abfe2b743e97",
         "name": "spacer",
         "group": "d3b06de3a8f69cdc",
-        "order": 19,
+        "order": 17,
         "width": 1,
         "height": 1
     },
@@ -472,7 +472,7 @@
         "z": "dab2abfe2b743e97",
         "name": "spacer",
         "group": "d3b06de3a8f69cdc",
-        "order": 22,
+        "order": 20,
         "width": "1",
         "height": "1"
     },
@@ -1152,7 +1152,8 @@
             "8de48683c4814cb9",
             "121ea7f2b2fbb352",
             "89bfbb9458d041a2",
-            "99314bc919e4d801"
+            "99314bc919e4d801",
+            "2025a419c49f9b6f"
         ],
         "x": 255,
         "y": 540,
@@ -1623,7 +1624,7 @@
         "z": "78137179abe2fa8b",
         "name": "",
         "group": "d3b06de3a8f69cdc",
-        "order": 7,
+        "order": 23,
         "width": 0,
         "height": 0,
         "passthru": false,
@@ -1646,7 +1647,7 @@
         ]
     },
     {
-        "id": "322c32c67cb31d43",
+        "id": "edcdcd1e206e5079",
         "type": "delay",
         "z": "78137179abe2fa8b",
         "name": "",
@@ -1662,7 +1663,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 240,
+        "x": 230,
         "y": 1400,
         "wires": [
             [
@@ -1671,18 +1672,18 @@
         ]
     },
     {
-        "id": "99314bc919e4d801",
+        "id": "2025a419c49f9b6f",
         "type": "link in",
         "z": "78137179abe2fa8b",
         "name": "link in 18",
         "links": [
             "4d74b43dd4b226ab"
         ],
-        "x": 85,
+        "x": 75,
         "y": 1400,
         "wires": [
             [
-                "322c32c67cb31d43"
+                "edcdcd1e206e5079"
             ]
         ]
     },
@@ -2549,7 +2550,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 660,
+        "x": 590,
         "y": 240,
         "wires": [
             [
@@ -2573,6 +2574,117 @@
         "statusType": "auto",
         "x": 1060,
         "y": 160,
+        "wires": []
+    },
+    {
+        "id": "55fa936d775ff335",
+        "type": "http request",
+        "z": "90d457d7cfcbc260",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://localhost:8090/camera3/capture/status",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 430,
+        "y": 1040,
+        "wires": [
+            [
+                "b5d0032bac401ac2"
+            ]
+        ]
+    },
+    {
+        "id": "35700d1f003e19fa",
+        "type": "inject",
+        "z": "90d457d7cfcbc260",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1.9",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 1040,
+        "wires": [
+            [
+                "55fa936d775ff335"
+            ]
+        ]
+    },
+    {
+        "id": "b5d0032bac401ac2",
+        "type": "function",
+        "z": "90d457d7cfcbc260",
+        "name": "Camera Capture",
+        "func": "\nif (msg.payload === 'True') {\n    msg.payload = 'Active';\n    msg.fcolor = 'green';\n} else {\n    msg.payload = 'Stopped';\n    msg.fcolor = 'red';\n}\nreturn msg",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 1040,
+        "wires": [
+            [
+                "5e2eebcf886fb25d",
+                "2c9b4a79348d9b1f"
+            ]
+        ]
+    },
+    {
+        "id": "5e2eebcf886fb25d",
+        "type": "ui_text",
+        "z": "90d457d7cfcbc260",
+        "group": "c38a1e390906e080",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Camera Capture Status",
+        "format": "<font color={{fcolor}}>{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 890,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "2c9b4a79348d9b1f",
+        "type": "debug",
+        "z": "90d457d7cfcbc260",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 1120,
         "wires": []
     },
     {
@@ -3205,7 +3317,7 @@
         "type": "ui_text",
         "z": "dab2abfe2b743e97",
         "group": "d3b06de3a8f69cdc",
-        "order": 2,
+        "order": 1,
         "width": 10,
         "height": 1,
         "name": "",
@@ -3561,7 +3673,7 @@
         "type": "ui_text",
         "z": "dab2abfe2b743e97",
         "group": "d3b06de3a8f69cdc",
-        "order": 5,
+        "order": 3,
         "width": 10,
         "height": 1,
         "name": "",
@@ -3796,7 +3908,7 @@
         "type": "ui_text",
         "z": "dab2abfe2b743e97",
         "group": "d3b06de3a8f69cdc",
-        "order": 8,
+        "order": 6,
         "width": 10,
         "height": 1,
         "name": "",
@@ -3959,7 +4071,7 @@
         "type": "ui_text",
         "z": "dab2abfe2b743e97",
         "group": "d3b06de3a8f69cdc",
-        "order": 11,
+        "order": 9,
         "width": 10,
         "height": 1,
         "name": "",
@@ -4139,7 +4251,7 @@
         "type": "ui_text",
         "z": "dab2abfe2b743e97",
         "group": "d3b06de3a8f69cdc",
-        "order": 14,
+        "order": 12,
         "width": 10,
         "height": 1,
         "name": "",
@@ -4319,7 +4431,7 @@
         "type": "ui_text",
         "z": "dab2abfe2b743e97",
         "group": "d3b06de3a8f69cdc",
-        "order": 17,
+        "order": 15,
         "width": 10,
         "height": 1,
         "name": "",
@@ -4499,7 +4611,7 @@
         "type": "ui_text",
         "z": "dab2abfe2b743e97",
         "group": "d3b06de3a8f69cdc",
-        "order": 20,
+        "order": 18,
         "width": 10,
         "height": 1,
         "name": "",
@@ -4675,7 +4787,8 @@
             "a27a9075d9708e5b",
             "d4f5b066ec187db5",
             "c6270bcecacdd374",
-            "9a902bb006dcf88e"
+            "9a902bb006dcf88e",
+            "ce0133e8c3fb011f"
         ],
         "x": 1105,
         "y": 540,
@@ -4776,7 +4889,7 @@
                 "924528b1dce6edfc"
             ],
             [
-                "aa15a3a539b7abdb"
+                "19f42bfe1c54b6b9"
             ]
         ]
     },
@@ -5232,7 +5345,7 @@
         "type": "ui_text",
         "z": "dab2abfe2b743e97",
         "group": "d3b06de3a8f69cdc",
-        "order": 23,
+        "order": 21,
         "width": 10,
         "height": 1,
         "name": "",
@@ -5340,5 +5453,221 @@
         "x": 1945,
         "y": 1600,
         "wires": []
+    },
+    {
+        "id": "db1863b2e62d33da",
+        "type": "http response",
+        "z": "dab2abfe2b743e97",
+        "name": "camera_capture_file response",
+        "statusCode": "",
+        "headers": {},
+        "x": 850,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "18afbdc7a0a29b63",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "camera_capture_file_path",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 1780,
+        "wires": [
+            [
+                "db1863b2e62d33da"
+            ]
+        ]
+    },
+    {
+        "id": "b457efa46df27e4c",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "Set camera capture file path",
+        "func": "\nvar x = flow.get(\"file_path\") + flow.get(\"camera_capture_file_name\");\nmsg= { payload: x };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 1900,
+        "wires": [
+            [
+                "06985c440ae9043d"
+            ]
+        ]
+    },
+    {
+        "id": "06985c440ae9043d",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "camera_capture_file_path",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 1900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7f53aa6629a1753a",
+        "type": "ui_text",
+        "z": "dab2abfe2b743e97",
+        "group": "d3b06de3a8f69cdc",
+        "order": 22,
+        "width": 10,
+        "height": 1,
+        "name": "",
+        "label": "Camera capture file name",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 510,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "c209aff581a263e1",
+        "type": "change",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "camera_capture_file_name",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 1860,
+        "wires": [
+            [
+                "b457efa46df27e4c",
+                "5c12229cb52f7129"
+            ]
+        ]
+    },
+    {
+        "id": "19f42bfe1c54b6b9",
+        "type": "function",
+        "z": "dab2abfe2b743e97",
+        "name": "Set camera capture file name",
+        "func": "var y = \" - Camera 3 - \"\nvar i = flow.get(\"file_index\")\nvar x = flow.get(\"base_filename\") + y + i +\".mp4\";\nmsg= { payload: x };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 1860,
+        "wires": [
+            [
+                "c209aff581a263e1",
+                "7f53aa6629a1753a"
+            ]
+        ]
+    },
+    {
+        "id": "2b0d2fd5cd0d316b",
+        "type": "comment",
+        "z": "dab2abfe2b743e97",
+        "name": "Camera Capture file setup and response",
+        "info": "",
+        "x": 270,
+        "y": 1740,
+        "wires": []
+    },
+    {
+        "id": "5c12229cb52f7129",
+        "type": "fs-ops-access",
+        "z": "dab2abfe2b743e97",
+        "name": "",
+        "path": "file_path",
+        "pathType": "flow",
+        "filename": "camera_capture_file_name",
+        "filenameType": "flow",
+        "read": true,
+        "write": false,
+        "throwerror": true,
+        "x": 790,
+        "y": 1860,
+        "wires": [
+            [
+                "ce0133e8c3fb011f"
+            ],
+            [
+                "aa15a3a539b7abdb"
+            ]
+        ]
+    },
+    {
+        "id": "ce0133e8c3fb011f",
+        "type": "link out",
+        "z": "dab2abfe2b743e97",
+        "name": "link out 12",
+        "mode": "link",
+        "links": [
+            "93651bbe281d52d9"
+        ],
+        "x": 895,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "2cdb97e817240764",
+        "type": "http in",
+        "z": "dab2abfe2b743e97",
+        "name": "camera_capture_file get",
+        "url": "/camera_capture_file",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 220,
+        "y": 1780,
+        "wires": [
+            [
+                "18afbdc7a0a29b63"
+            ]
+        ]
     }
 ]
